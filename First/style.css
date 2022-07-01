@@ -1,0 +1,175 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+.container
+{
+    display: grid;
+    padding: 0;
+    padding-bottom: 56.25%;
+    justify-content: center;
+    /* background-color: #212121; */
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 0;
+}
+.semicontainer
+{
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow:0px 8px 20px 8px  rgba(0, 0, 0, 0.7);
+    margin-top: 180px;
+    transition: transform 0.666s;
+}
+.text
+{
+    font-size: 36px;
+    padding: 10px 30px;
+    color: rgba(255, 255, 255, 1);
+    transition: transform 0.666s;
+}
+.button1
+{
+    display: block;
+    padding: 10px 30px;
+    margin: 10px;
+    color: #000000;
+    border: 2px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.button2
+{
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+    margin: 10px;
+    color: #000000;
+    border: 2px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.button3
+{
+    display: block;
+    padding: 10px 30px;
+    margin: 10px;
+    color: #000000;
+    border: 2px;
+    border-color: #e6e6e6;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: transform .5s;
+    cursor: pointer;
+}
+.button4
+{
+    display: block;
+    padding: 10px 30px;
+    margin: 10px;
+    color: #000000;
+    border: 2px;
+    border-color: #e6e6e6;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: transform .5s;
+    cursor: pointer;
+}
+
+.button1:hover
+{
+    display: block;
+    padding: 10px 30px;
+    margin: 10px;
+    color: #212121;
+    border: 2px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.25);
+    cursor: pointer;
+    box-shadow:0px 1px 3px 1px  rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+}
+.button2:hover
+{
+    display: block;
+    padding: 10px 30px;
+    margin: 10px;
+    color: #212121;
+    border: 2px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.25);
+    cursor: pointer;
+    box-shadow:0px 1px 3px 1px  rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+}
+.button3:hover
+{
+    display: block;
+    padding: 10px 30px;
+    margin: 10px;
+    color: #212121;
+    border: 2px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.25);
+    cursor: pointer;
+    box-shadow:0px 1px 3px 1px  rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+}
+.button4:hover
+{
+    display: block;
+    padding: 10px 30px;
+    margin: 10px;
+    color: #212121;
+    border: 2px;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(16px);
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.25);
+    cursor: pointer;
+    box-shadow:0px 1px 3px 1px  rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+}
+.semicontainer:hover
+{
+    transform: scale(1.1);
+    box-shadow:0px 8px 40px 8px  rgba(0, 0, 0, 0.9);
+}
+.text:hover
+{
+    transform: scale(1.25);
+    cursor: default;
+}
